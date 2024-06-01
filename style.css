@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.container__header .btn__header {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.container__header .btn__logo {
+  margin-right: 1rem;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.container__header .btn__logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.container__header .btn__iconGitHub {
+  margin-left: 1rem;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.container__header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.container__header nav ul li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 600;
+}
+
+/* Seccion Hero */
+.section__hero {
+  width: 90%;
+  margin: 3rem auto;
+  display: flex;
+}
+
+.section__hero .article__texto {
+  width: 60%;
+  margin-top: 5rem;
+}
+
+.section__hero .article__texto h1 {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.section__hero .article__texto p {
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+}
+
+.section__hero .article__texto .article__texto-btns {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.section__hero .article__texto .article__texto-btns .btn__hero {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.section__hero .article__texto .article__texto-btns .btn__heroFlecha {
+  background-color: black;
+  color: white;
+}
+
+.section__hero .article__texto .article__texto-btns .btn__heroGitHub {
+  background-color: transparent;
+  border: 1px solid black;
+  font-weight: 400;
+}
+
+.section__hero .article__texto .article__texto-social {
+  margin-top: 1rem;
+  h6 {
+    font-size: 1rem;
+    color: grey;
+  }
+}
+
+.section__hero .article__texto .article__texto-social .icon__social {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.section__hero .article__imagen {
+  width: 40%;
+}
+
+.section__hero .article__imagen img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Section About */
+.section__about {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section__about h6 {
+  font-size: 14px;
+  color: #606060;
+  border: 1px solid #e8e8e8;
+  padding: 6px 14px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+  margin-top: 1rem;
+  background: #fff;
+}
+
+.section__about h2 {
+  font-weight: 300;
+}
+
+.container__cards {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  /*flex: 1 1 calc(33.333% - 20px);*/
+  /*flex-direction: column;*/
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.section__about .container__cards img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.section__about .container__cards a {
+  text-decoration: none;
+  margin-top: 0.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.section__about .container__cards p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+/* Section Proyect */
+.section__proyect {
+  width: 98%;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.section__proyect h2 {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.section__proyect p {
+  margin-top: 0.5rem;
+}
+
+.section__proyect button {
+  margin-top: 1rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.section__proyect button:hover {
+  background-color: black;
+  color: white;
+}
+
+.section__proyect-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.proyect__card {
+  width: 275px;
+  padding: 1rem;
+  border: 1px solid white;
+  background-color: rgb(25, 24, 24);
+  border-radius: 10px;
+}
+
+.proyect__card h4 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.proyect__card p {
+  font-size: 0.9rem;
+}
+
+.section__contact {
+  width: 100%;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.section__contact h2 {
+  font-weight: 500;
+}
+
+.section__contact-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.section__contact-container article {
+  width: 50%;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.section__contact-container article h6 {
+  font-size: 1rem;
+}
+
+.section__contact-container article p {
+  margin-top: 0.5rem;
+}
+
+.section__contact-container article button {
+  background-color: black;
+  margin-top: 1rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+footer {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 790px) {
+  .section__hero .article__texto {
+    width: 60%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .container__header nav ul {
+    gap: 0.5rem;
+  }
+
+  .container__header .btn__iconGitHub {
+    display: none;
+  }
+
+  .section__hero {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .section__hero .article__texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__hero .article__texto h1 {
+    font-size: 1.6rem;
+  }
+
+  .section__hero .article__texto p {
+    margin-top: 1rem;
+  }
+
+  .section__hero .article__imagen {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .section__about h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container__header .btn__logo {
+    font-size: 0.9rem;
+  }
+  .container__header .btn__logo img {
+    width: 25px;
+    height: 25px;
+  }
+  .container__header nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  .section__hero .article__texto h1 {
+    text-align: center;
+  }
+
+  .section__hero .article__texto p {
+    text-align: center;
+  }
+
+  .section__contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__contact-container article {
+    width: 80%;
+  }
+}
