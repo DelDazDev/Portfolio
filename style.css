@@ -356,14 +356,14 @@ footer a {
 
 @media screen and (max-width: 430px) {
   .container__header .btn__logo {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .container__header .btn__logo img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
   }
   .container__header nav ul li a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .section__hero .article__texto h1 {
